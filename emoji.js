@@ -1,5 +1,5 @@
 const 
-canvas = document.createElement("canvas"),
+canvas = document.querySelector("canvas"),
 img = new Image(60, 45),   
 ctx = canvas.getContext("2d");
 
@@ -24,4 +24,3 @@ canvas.addEventListener("click", () => {
 		break;
 	}
 });
-document.body.appendChild(canvas);
