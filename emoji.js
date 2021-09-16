@@ -1,6 +1,8 @@
+$( document ).ready(jqueryfn);
+function jqueryfn() {
 const 
 canvas = document.querySelector("canvas"),
-img = new Image(60, 45),   
+img = new Image(60, 45), 
 ctx = canvas.getContext("2d");
 
 img.onload = draw;
@@ -24,3 +26,4 @@ canvas.addEventListener("click", () => {
 		break;
 	}
 });
+}
